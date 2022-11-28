@@ -7,14 +7,12 @@ if first_arg == "help" && ARGV[1] == nil
     CTX=test ruby commiter.rb INTENTION FULL MESSAGE
 
     Permitted intentions
-    -b --Bug fix (bugfix)
-    -s --Start project
-    -f --Finish project
-    -d --Documentation or anyone comment on code only
+    -bg --Bug fix (bugfix)
+    -st --Start project
     -w --Work in progress
-    -r --Code review suggestion changes
+    -cr --Code review suggestion changes
     -p --Performance related changes
-    -m --Maintenance changes: linter, config updates, etc.
+    -mt --Maintenance changes: linter, config updates, etc.
     -rem --Removing code
   }
 
