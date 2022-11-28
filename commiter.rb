@@ -64,6 +64,10 @@ when "-hot"
   templatemsg += ":fire: hotfix(#{current_context}):"
 when "-bp"
   templatemsg += ":rocket: version-bump(#{current_context}):"
+when "-doc"
+  templatemsg += ":books: documentation(#{current_context}):"
+when "-std"
+  templatemsg += ":open_book: study(#{current_context}):"
 else
   raise "wrong args"
 end
