@@ -87,3 +87,28 @@ alias commit="ruby ABSOLUTE_PATH_TO_REPOSITORY/commiter/commiter.rb"
 # Greetings!
 
 Have fun!
+
+# My Commiter 🌻
+
+```
+commit-ctx [current_context here]
+commit [-...]
+```
+
+“-bg” = “:beetle: bugfix(#{current_context}):”
+“-fx” = “:gear: fix(#{current_context}):”
+“-st” = “:tada: start(#{current_context}):”
+“-ft” = “:building_construction: feature(#{current_context}):”
+“-w” = “:construction: wip(#{current_context}):”
+“-dv” = “:computer: development(#{current_context}):”
+“-mt” = “:wrench: maintenance(#{current_context}):”
+“-me” = “:bar_chart: metrics(#{current_context}):”
+“-rem” = “:fire: codingremoval(#{current_context}):”
+“-cr” = “:memo: codereview(#{current_context}):”
+“-tt” = “:test_tube: test(#{current_context}):”
+“-as” = “:framed_picture: asset(#{current_context}):”
+“-cold” = “:ice_cube: coldfix(#{current_context}):”
+“-hot” = “:fire: hotfix(#{current_context}):”
+“-bp” = “:rocket: version-bump(#{current_context}):”
+“-doc” = “:books: documentation(#{current_context}):”
+“-std” = “:open_book: study(#{current_context}):”
