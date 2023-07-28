@@ -112,6 +112,5 @@ commit [-...]
 * `-bp`: “:rocket: version-bump(current_context):”
 * `-doc`: “:books: documentation(current_context):”
 * `-std`: “:open_book: study(current_context):”
-* `-ft`: “:building_construction: feature(current_context):”
 
 
